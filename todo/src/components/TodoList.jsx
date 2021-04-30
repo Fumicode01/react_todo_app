@@ -37,7 +37,7 @@ function TodoList() {
     const completeTodo = id => {
         let updateTodos = todos.map(todo => {
             if (todo.id === id) {
-                todo.isComplete = !todo.iscomplete;
+                todo.isComplete = !todo.isComplete;
             }
             return todo;
         });
